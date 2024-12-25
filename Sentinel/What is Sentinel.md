@@ -2,7 +2,7 @@
 
 # What is Sentinel?
 
-Sentinel is an open source framework for a network of nodes on which Decentralized VPNs and other Web3 services are built. The purpose of the Sentinel ecosystem is to empower universal access to the internet in a trusted and provable manner. This will be done by allowing organizations and individuals around the world to construct decentralized, scalable, distributed networking solutions on Sentinel’s Cosmos-based blockchain in a cost-effective manner.
+Sentinel is an open source framework for a network of nodes on which Decentralized VPNs and other Web3 services are built. The purpose of the Sentinel ecosystem is to empower universal access to the internet in a trusted and provable manner. This will be done by allowing organizations and individuals around the world to construct decentralized, scalable, distributed networking solutions on Sentinel’s Cosmos-based blockchain in a cost-effective manner.  
 We strongly encourage all interested parties to build on Sentinel—anyone from established VPN companies to startups to lone individuals in their bedroom. Sentinel's code is fully open-sourced, transparent, and readily available to all for this very reason.
 
 # Why Sentinel?
