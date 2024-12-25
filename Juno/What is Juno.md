@@ -1,7 +1,5 @@
 ![image](https://github.com/user-attachments/assets/fdb10bc6-6250-4f05-a0b2-2eb2654e4ca2)
 
-# -EN
-
 Juno - Interoperable Smart Contract Network
 
 Juno is a global, open source, permission-less network for decentralized interoperable applications.
