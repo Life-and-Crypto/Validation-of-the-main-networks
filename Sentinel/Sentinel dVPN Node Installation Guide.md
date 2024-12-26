@@ -98,13 +98,13 @@ Please use our popular [snapshot](https://polkachu.com/tendermint_snapshots/sent
 
 ## Start Node Service
 
-> ### Enable service
+### Enable service
 > sudo systemctl enable sentinel.service
 
- ### Start service
+### Start service
 > sudo service sentinel start
 
- ### Check logs
+### Check logs
 > sudo journalctl -fu sentinel
 
 # Other Considerations
