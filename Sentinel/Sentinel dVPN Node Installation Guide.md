@@ -62,11 +62,11 @@ Using a seed node to bootstrap is the best practice in our view. Alternatively, 
 
 Create Cosmovisor folders and load the node binary.
 
-> ## Create Cosmovisor Folders
+> ### Create Cosmovisor Folders
 > mkdir -p ~/.sentinelhub/cosmovisor/genesis/bin
 > mkdir -p ~/.sentinelhub/cosmovisor/upgrades
 >
-> ## Load Node Binary into Cosmovisor Folder
+> ### Load Node Binary into Cosmovisor Folder
 > cp ~/go/bin/sentinelhub ~/.sentinelhub/cosmovisor/genesis/bin
 
 ## Create Service File
@@ -98,13 +98,13 @@ Please use our popular [snapshot](https://polkachu.com/tendermint_snapshots/sent
 
 ## Start Node Service
 
-> ## Enable service
+> ### Enable service
 > sudo systemctl enable sentinel.service
 > 
-> ## Start service
+> ### Start service
 > sudo service sentinel start
 > 
-> ## Check logs
+> ### Check logs
 > sudo journalctl -fu sentinel
 
 # Other Considerations
