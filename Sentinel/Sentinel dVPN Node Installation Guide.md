@@ -39,7 +39,7 @@ Install the current version of node binary.
 
 ## Initialize Node
 
-Please replace YOUR_MONIKER with your own moniker.
+Please replace __YOUR_MONIKER__ with your own moniker.
 
 > sentinelhub init YOUR_MONIKER --chain-id sentinelhub-2
 
