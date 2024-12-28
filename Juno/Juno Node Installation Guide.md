@@ -98,15 +98,15 @@ Make sure to replace __'USER'__ with your Linux user name. You need sudo privile
 
 Please use our popular [snapshot](https://polkachu.com/tendermint_snapshots/juno) download service to download and extract Juno snapshot.
 
-## Start Node Service
+# Start Node Service
 
-> # Enable service
+> ## Enable service
 > sudo systemctl enable juno.service
 > 
-> # Start service
+> ## Start service
 > sudo service juno start
 > 
-> # Check logs
+> ## Check logs
 > sudo journalctl -fu juno
 
 # Other Considerations
