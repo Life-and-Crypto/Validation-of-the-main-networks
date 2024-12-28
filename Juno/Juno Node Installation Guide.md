@@ -1,8 +1,8 @@
-## Install Go and Cosmovisor
+# Install Go and Cosmovisor
 
 Feel free to skip this step if you already have Go and Cosmovisor.
 
-# Install Go
+## Install Go
 
 We will use Go v1.22.4 as example here. The code below also cleanly removes any previous Go installation.
 
@@ -11,7 +11,7 @@ We will use Go v1.22.4 as example here. The code below also cleanly removes any 
 > sudo tar -C /usr/local -xzf go1.22.4.linux-amd64.tar.gz
 > rm go1.22.4.linux-amd64.tar.gz
 
-# Configure Go
+## Configure Go
 
 Unless you want to configure in a non-standard way, then set these in the __~/.profile__ file.
 
@@ -20,13 +20,13 @@ Unless you want to configure in a non-standard way, then set these in the __~/.p
 > export GO111MODULE=on
 > export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin
 
-# Install Cosmovisor
+## Install Cosmovisor
 
 We will use Cosmovisor __v1.0.0__ as example here.
 
 > go install github.com/cosmos/cosmos-sdk/cosmovisor/cmd/cosmovisor@v1.0.0
 
-## Install Node
+# Install Node
 
 Install the current version of node binary.
 
@@ -35,42 +35,42 @@ Install the current version of node binary.
 > git checkout v26.0.0
 > make install
 
-## Configure Node
+# Configure Node
 
-# Initialize Node
+## Initialize Node
 
 Please replace __'YOUR_MONIKER'__ with your own moniker.
 
 > junod init YOUR_MONIKER --chain-id juno-1
 
-# Download Genesis
+## Download Genesis
 
 The genesis file link below is Polkachu's mirror download. The best practice is to find the official genesis download link.
 
 > wget -O genesis.json https://snapshots.polkachu.com/genesis/juno/genesis.json --inet4-only
 > mv genesis.json ~/.juno/config
 
-# Configure Seed
+## Configure Seed
 
 Using a seed node to bootstrap is the best practice in our view.   
 Alternatively, you can use [addrbook](https://polkachu.com/addrbooks/juno) or [persistent_peers](https://polkachu.com/live_peers/juno).
 
 > sed -i 's/bootstrap-peers = ""/bootstrap-peers = "ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0@seeds.polkachu.com:12656"/' ~/.juno/config/config.toml
 
-## Launch Node
+# Launch Node
 
-# Configure Cosmovisor Folder
+## Configure Cosmovisor Folder
 
 Create Cosmovisor folders and load the node binary.
 
-> # Create Cosmovisor Folders
+> ## Create Cosmovisor Folders
 > mkdir -p ~/.juno/cosmovisor/genesis/bin
 > mkdir -p ~/.juno/cosmovisor/upgrades
 > 
-> # Load Node Binary into Cosmovisor Folder
+> ## Load Node Binary into Cosmovisor Folder
 > cp ~/go/bin/junod ~/.juno/cosmovisor/genesis/bin
 
-# Create Service File
+## Create Service File
 
 Create a __'juno.service'__ file in the __'/etc/systemd/system'__ folder with the following code snippet.  
 Make sure to replace __'USER'__ with your Linux user name. You need sudo privilege to do this step.
@@ -94,11 +94,11 @@ Make sure to replace __'USER'__ with your Linux user name. You need sudo privile
 > [Install]
 > WantedBy=multi-user.target
 
-# Download Snapshot
+## Download Snapshot
 
 Please use our popular [snapshot](https://polkachu.com/tendermint_snapshots/juno) download service to download and extract Juno snapshot.
 
-# Start Node Service
+## Start Node Service
 
 > # Enable service
 > sudo systemctl enable juno.service
