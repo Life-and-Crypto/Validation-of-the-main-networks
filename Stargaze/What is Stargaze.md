@@ -1,3 +1,5 @@
+![maxresdefault](https://github.com/user-attachments/assets/20559ce4-8c6c-4b3d-881e-35771b28a454)
+
 # What is Stargaze?
 
 ## The NFT Chain with Real Yield
