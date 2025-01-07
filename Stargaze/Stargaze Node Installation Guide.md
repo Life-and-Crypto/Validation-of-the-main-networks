@@ -117,4 +117,4 @@ This installation guide is the bare minimum to get a node started. You should co
 2. Configure firewall to close most ports while only leaving the p2p port (typically 26656) open
 3. Use custom ports for each node so you can run multiple nodes on the same server
 
-@Polcachu
+@Polkachu
