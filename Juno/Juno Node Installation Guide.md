@@ -118,3 +118,5 @@ This installation guide is the bare minimum to get a node started. You should co
 3. Use custom ports for each node so you can run multiple nodes on the same server
 
 If you find a bug in this installation guide, please reach out to our [Discord Server](https://discord.com/invite/b5nXFAsex2) and let us know.
+
+@Polkachu
