@@ -17,4 +17,4 @@ Launched a validator on the Stargaze Network - [pingpub](https://ping.pub/starga
 Launched a validator on the Lava Network - [pingpub](https://ping.pub/lava/staking/lava@valoper1w4yyt0r9xc9y8x548jmfj83mztwpn8ngk04tsu) by Atlant
 
 # 07/03/2025  
-Launched a validator on the Persistence One - [mintscan](https://www.mintscan.io/persistence/validators/persistencevaloper1arxtft7kw32y94ae5h794mn6wtsp3supm5a2j3?sector=power-events)
+Launched a validator on the Persistence One - [mintscan](https://www.mintscan.io/persistence/validators/persistencevaloper1arxtft7kw32y94ae5h794mn6wtsp3supm5a2j3?sector=power-events) by Akiranbl4
