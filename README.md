@@ -11,7 +11,7 @@ Launched a validator on the Sentinel Network - [pingpub](https://ping.pub/sentin
 
 # 05/01/2025
 
-Launched a validator on the Stargaze Network - [pingpub](https://ping.pub/stargaze/tx/B25A20FDEAF5C7D3E14987A99A9A5D5611A3BC3009EE8F6F0F59A12864438F33) by Akiranbl4
+Launched a validator on the Stargaze Network - [pingpub](https://ping.pub/stargaze/staking/starsvaloper1ghrj4utqa849kxfkcau4mwt8s0txgrt99ddgyz) by Akiranbl4
 
 # 26/02/2025
 Launched a validator on the Lava Network - [pingpub](https://ping.pub/lava/staking/lava@valoper1w4yyt0r9xc9y8x548jmfj83mztwpn8ngk04tsu) by Atlant
