@@ -18,3 +18,5 @@ Launched a validator on the Lava Network - [pingpub](https://ping.pub/lava/staki
 
 # 07/03/2025 - 01/08/2025 (closed)
 Launched a validator on the Persistence One - [mintscan](https://www.mintscan.io/persistence/validators/persistencevaloper1arxtft7kw32y94ae5h794mn6wtsp3supm5a2j3?sector=power-events) by Akiranbl4
+# 31/08/2025
+Launched a validator on the CosmosHub - [mintscan](https://www.mintscan.io/cosmos/validators/cosmosvaloper1nkkdef4flw8s3jxnmdyqnr7rwgfpw2kv9lx0ug?sector=validator-events)
